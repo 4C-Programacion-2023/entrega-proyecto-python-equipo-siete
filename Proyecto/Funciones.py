@@ -1,11 +1,10 @@
 import random
 from Preguntas_Preguntados import preguntas_cat
 from tkinter import *
-import tkinter as tk
-
-OPCIONES = ['Categoria Aleatoria',
+import tkinter as messagebox
+OPCIONES = ['reguntAleatoria',
             'Elección de Categoria',
-            'Salir']
+            ]
 
 
 CATEGORIAS = ['Deporte',
@@ -78,8 +77,31 @@ def elegir_categoria(correctos, info_jugador):
         return info_jugador
     return False
 
-def Salir():
-    print('Gracias por jugar')
-    exit()
 
+#Modo eleccion de categoria
+def eleccion_cat(correctos,incorrectos, info_jugador):
+    
+    print('Elegí la categoria')
+    lista_categorias = categorias_faltan(info_jugador)
+    print(lista_categorias)
+    print(f"")
 
+    eleccion = input('>>>').capitalize()
+    
+    
+    while correctos < 10 and incorrectos < 3:
+        if eleccion in lista_categorias:
+        
+            respuesta = preguntas(eleccion)
+        if respuesta:
+            info_jugador[eleccion] = True
+            correctos += 1
+            
+        else:
+                incorrectos += 1
+
+        print(f'Respuestas correctas: {correctos}/10')
+        print(f'Respuestas incorrectas: {incorrectos}/3')
+        print(f'')
+        
+    return False

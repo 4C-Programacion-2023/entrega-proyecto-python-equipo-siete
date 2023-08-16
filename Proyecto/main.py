@@ -5,8 +5,6 @@ from tkinter import ttk
 ventana = tk.Tk()
 ventana.title("Preguntados")
 ventana.geometry("1000x800")  
-
-
 ventana.config(bg="gray")
 ventana.config(bd=25)
 ventana.config(relief="groove")
@@ -19,13 +17,14 @@ etiqueta_titulo.pack(pady=20)
 
 
 opciones_modos = ['Preguntas Aleatorias',
+                "Eleccion de Categoria",
             'De a 2 jugadores',
-            'Salir']
+            ]
 
 
 modo_var = tk.StringVar()
 modo_var.set(opciones_modos[0])  
-menu_desplegable = ttk.Combobox(frame_principal, values=opciones_modos, textvariable=modo_var, state="readonly", font=("Arial", 20), width=15)
+menu_desplegable = ttk.Combobox(frame_principal, values=opciones_modos, textvariable=modo_var, state="readonly", font=("Arial", 18), width=17)
 menu_desplegable.pack(pady=10)
 
 def iniciar_juego():
@@ -54,7 +53,7 @@ y = (ventana.winfo_screenheight() // 2) - (height // 2)
 
 
 import random
-from Funciones import  preguntas, Salir, CATEGORIAS, mostrar_info_jugador, categorias_faltan, elegir_categoria
+from Funciones import  preguntas, CATEGORIAS, mostrar_info_jugador, categorias_faltan, elegir_categoria, eleccion_cat
 from tkinter import messagebox
 
 
@@ -90,43 +89,57 @@ if __name__ == "__main__":
         if correctos == 10:
             messagebox.showinfo( "Ganaste", " ¡Ganaste!       ", )
             print('Ganaste!')
-    if modo_seleccionado == 'De a 2 jugadores':
+    elif modo_seleccionado == 'De a 2 jugadores':
+        print(f"")
+        print(f"")
         cant_de_jugadores = 2
         rango = cant_de_jugadores + 1
         info_jugador = [{x: False for x in CATEGORIAS} for i in range(rango)]
         i = 1
         CORONITA = len(CATEGORIAS)
-        while i != 0:
+        
+        while i != 0: 
             if i == rango:
-                i = 1
+                i = 1  
             else:
                 correctos = 0
                 incorrectos = 0
-                mostrar_info_jugador(info_jugador[i-1], i)
+                mostrar_info_jugador(info_jugador[i-1], i)  
                 turno_actual = i
-                while i == turno_actual:
-                    print(f'\nTurno del jugador {i}')
-                    cat_elegida = random.randint(0, CORONITA)
-                    if cat_elegida != CORONITA:
-                        respuesta = preguntas(CATEGORIAS[cat_elegida])
-
-                        if respuesta:
-                            correctos += 1
+                
+                while i == turno_actual: 
+                    print(f'\nTurno del jugador {i}')  
+                    
+                    cat_elegida = random.randint(0, CORONITA)  
+                    
+                    if cat_elegida != CORONITA:  
+                        respuesta = preguntas(CATEGORIAS[cat_elegida]) 
+                        
+                        if respuesta:  
+                            correctos += 1 
                             corrio = elegir_categoria(correctos, info_jugador[i-1])
-                            if corrio:
-                                i += 1
-                        else:
-                            incorrectos += 1
-                            i += 1
-                    else:
+                            if corrio: 
+                                i += 1  
+                        else:  
+                            incorrectos += 1 
+                            i += 1  
+                    else:  
                         print('Coronita\nElegí la categoria')
-                        correctos = 3
+                        correctos = 3  
                         elegir_categoria(correctos, info_jugador[i-1])
-                        i += 1
-                if not categorias_faltan(info_jugador[i-1]):
-                    print(f'Jugador {i} es el ganador')
-                    break
-        
-    elif modo_seleccionado == '3':
-        Salir()
+                        i += 1 
+                    
 
+                    if not categorias_faltan(info_jugador[i-1]):
+                        print(f'Jugador {i} es el ganador')
+                        break 
+
+
+    elif modo_seleccionado == "Eleccion de Categoria":
+        print(f"")
+        print(f"")
+        info_jugador = {x: False for x in CATEGORIAS}
+        eleccion_cat(correctos,incorrectos, info_jugador)
+        
+        
+            
