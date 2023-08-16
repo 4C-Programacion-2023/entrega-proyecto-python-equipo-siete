@@ -100,7 +100,103 @@ preguntas_cat = {
             "nombre": "Quién ganó 4 mundiales consecutivos en la Fórmula 1?",
             "opciones": ['Lando Norris', 'Max Verstappen', 'Lewis Hamilton', 'Sebastian Vettel'],
             "respuesta": 4
+        },
+        {
+            "nombre": "Que equipo gano la ultima NBA?",
+            "opciones": ['Boston Celtics', 'Miami Heat', 'Golden State', 'Lakers'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "Cual de los siguientes jugadores Argentinos estara en el salon de la fama?",
+            "opciones": ['Facu Campazzo', 'Manu Ginobili', 'Luis Scola', 'Leandro Bolmmaro'],
+            "respuesta": 2
+        },
+        {
+            "nombre": "Cuantos Mundiales tiene Alemania?",
+            "opciones": [4, 5, 6, 7],
+            "respuesta": 1
+        },
+        {
+            "nombre": "A partir de qué temporada se implantó el VAR en LaLiga?",
+            "opciones": ['2015/16', '2018/19', '2019/20', '2020/21'],
+            "respuesta": 2
+        },
+        {
+            "nombre": "Cuantos balones de oro tiene Messi?",
+            "opciones": [5, 6, 7, 8],
+            "respuesta": 3
+        },
+        {
+            "nombre": "En que equipo debuto Maradona?",
+            "opciones": ['Barcelona', 'Roma', 'Boca', 'Argentinos Juniors'],
+            "respuesta": 4
+        },
+        {
+            "nombre": "Cuantos mundiales tiene Pele?",
+            "opciones": [1, 2, 3, 4],
+            "respuesta": 3
+        },
+        {
+            "nombre": "Cuanto mide una cancha de voley de largo?",
+            "opciones": ['18m', '20m', '25m', 'Ninguna es correcta'],
+            "respuesta": 1
+        },
+        {
+            "nombre": "Cuantas copas americas tiene Brasil?",
+            "opciones": ['3', '4', '6', 'Ninguna es correcta'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "Quienes llegaron a la final en el mundial 2010 de futbol?",
+            "opciones": ['España-Brasil', 'Holanda-Portugal', 'España-Holanda', 'Ninguna de las anteriores'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "Quien gano el mundial de voley en 2022?",
+            "opciones": ['España', 'Croacia', 'Francia', 'Estados Unidos'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "Quien gano la ultima competencia de natacion en las olimpiadas?",
+            "opciones": ['Marta Fiedina', 'Yukiko Inui', 'Zopie Andrew Spitz', 'Caeleb Dressel'],
+            "respuesta": 2
+        },
+        {
+            "nombre": "Cuál es el tenista con más títulos de la historia?",
+            "opciones": ['Rafael Nadal', 'Del Potro', 'Novak Djokovic', 'Roger Federer'],
+            "respuesta": 1
+        },
+        {
+            "nombre": "Cuanto duro el partido de tenis mas largo de la historia?",
+            "opciones": ['9:45hs', '10hs', '11:30hs', '11hs'],
+            "respuesta": 4
+        },
+        {
+            "nombre": "Donde se creo el tenis?",
+            "opciones": ['Italia', 'Estados Unidos', 'Inglaterra', 'Francia'],
+            "respuesta": 4
+        },
+        {
+            "nombre": "Cuantos jugadores hay en un partido de futbol por equipo en cancha?",
+            "opciones": [6, 7, 9, 11],
+            "respuesta": 4
+        },
+        {
+            "nombre": "Quién ganó 4 mundiales consecutivos en la Fórmula 1?",
+            "opciones": ['Lando Norris', 'Max Verstappen', 'Lewis Hamilton', 'Sebastian Vettel'],
+            "respuesta": 4
+        },
+        {
+            "nombre": "Cuál es el deporte más popular en Brasil?",
+            "opciones": ['Fútbol', 'Voleibol', 'Baloncesto', 'Atletismo'],
+            "respuesta": 1
+        },
+        {
+            "nombre": "En qué año se celebraron los primeros Juegos Olímpicos modernos?",
+            "opciones": ['1896', '1900', '1912', '1924'],
+            "respuesta": 1
         }
+
     ],
     'Ciencia': [
         {
@@ -202,6 +298,71 @@ preguntas_cat = {
                          'Todas son correctas'],
             "respuesta": 4
         },
+        {
+            "nombre": "Cual de los siguientes elementos es un gas noble?",
+            "opciones": ['Hidrógeno', 'Oxígeno', 'Helio', 'Carbono'],
+            "respuesta": 3
+            },
+        {
+            "nombre": "Qué científico propuso la teoría de la relatividad?",
+            "opciones": ['Isaac Newton', 'Albert Einstein', 'Galileo Galilei', 'Nikola Tesla'],
+            "respuesta": 2
+        },
+        {
+            "nombre": "Cuál es el proceso mediante el cual las plantas fabrican su propio alimento?",
+            "opciones": ['Fotosíntesis', 'Respiración', 'Transpiración', 'Digestión'],
+            "respuesta": 1
+        },
+        {
+            "nombre": "Cuál es el elemento químico más abundante en la Tierra?",
+            "opciones": ['Oxígeno', 'Hidrógeno', 'Hierro', 'Carbono'],
+            "respuesta": 1
+        },
+        {
+            "nombre": "En qué año el ser humano pisó la Luna por primera vez?",
+            "opciones": ['1969', '1972', '1980', '1955'],
+            "respuesta": 1
+        },
+        {
+            "nombre": "Qué es un átomo?",
+            "opciones": ['Una partícula cargada positivamente', 'Una molécula grande', 'La unidad básica de la materia', 'Una célula especializada'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "Cuál es la capa externa gaseosa de la Tierra que nos protege de la radiación solar?",
+            "opciones": ['Manto', 'Núcleo', 'Troposfera', 'Atmósfera'],
+            "respuesta": 4
+        },
+        {
+            "nombre": "Cuál es la partícula subatómica con carga negativa?",
+            "opciones": ['Neutrón', 'Protón', 'Electrón', 'Positrón'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "Qué es la energía renovable?",
+            "opciones": ['Energía obtenida de combustibles fósiles', 'Energía proveniente de fuentes no agotables', 'Energía generada por reacciones nucleares', 'Energía almacenada en baterías'],
+            "respuesta": 2
+        },
+        {
+            "nombre": "Cuál es la principal función del ADN en los seres vivos?",
+            "opciones": ['Producir energía', 'Regular el crecimiento celular', 'Transportar oxígeno', 'Almacenar información genética'],
+            "respuesta": 4
+        },
+        {
+            "nombre": "Qué fenómeno natural es causado por la interacción de las placas tectónicas?",
+            "opciones": ['Tornado', 'Erupción volcánica', 'Huracán', 'Eclipse solar'],
+            "respuesta": 2
+        },
+        {
+            "nombre": "Qué es la ley de la conservación de la energía?",
+            "opciones": ['La energía no se puede crear ni destruir, solo transformar', 'La energía siempre se disipa en forma de calor', 'La energía total en el universo es constante', 'La energía solo puede ser generada por humanos'],
+            "respuesta": 1
+        },
+        {
+            "nombre": "Cuál es la unidad básica de la vida?",
+            "opciones": ['Célula', 'Tejido', 'Órgano', 'Molécula'],
+            "respuesta": 1
+        }
     ],
 
     'Geografia': [
@@ -305,6 +466,76 @@ preguntas_cat = {
             "opciones": ['Ciudad del Vaticano', 'Luxemburgo', 'Antigua y Barbuda', 'Andorra'],
             "respuesta": 1
         },
+        {
+            "nombre": "Cuál es el río más largo del mundo?",
+            "opciones": ['Amazonas', 'Nilo', 'Yangtsé', 'Mississippi'],
+            "respuesta": 2
+        },
+        {
+            "nombre": "En qué continente se encuentra el desierto del Sahara?",
+            "opciones": ['África', 'Asia', 'América', 'Europa'],
+            "respuesta": 1
+        },
+        {
+            "nombre": "Cuál es el océano más grande del mundo?",
+            "opciones": ['Atlántico', 'Pacífico', 'Índico', 'Ártico'],
+            "respuesta": 2
+        },
+        {
+            "nombre": "Cuál es la montaña más alta del mundo?",
+            "opciones": ['Monte Everest', 'Monte Kilimanjaro', 'Monte McKinley', 'Monte Fuji'],
+            "respuesta": 1
+        },
+        {
+            "nombre": "Cuál es el país más grande en superficie del mundo?",
+            "opciones": ['China', 'Rusia', 'Estados Unidos', 'Canadá'],
+            "respuesta": 2
+        },
+        {
+            "nombre": "En qué continente se encuentra el Polo Norte?",
+            "opciones": ['África', 'Asia', 'América del Norte', 'Europa'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "Cuál es el país más pequeño del mundo?",
+            "opciones": ['Mónaco', 'Vaticano', 'Nauru', 'San Marino'],
+            "respuesta": 2
+        },
+        {
+            "nombre": "Cuál es la capital de Australia?",
+            "opciones": ['Sídney', 'Melbourne', 'Canberra', 'Brisbane'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "En qué continente se encuentra el Polo Sur?",
+            "opciones": ['África', 'Antártida', 'América del Sur', 'Oceanía'],
+            "respuesta": 2
+        },
+        {
+            "nombre": "Cuál es el país más poblado del mundo?",
+            "opciones": ['India', 'Estados Unidos', 'Indonesia', 'China'],
+            "respuesta": 4
+        },
+        {
+            "nombre": "Cuál es el lago más grande de América?",
+            "opciones": ['Lago Titicaca', 'Gran Lago de los Esclavos', 'Lago Superior', 'Lago Maracaibo'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "En qué continente se encuentra Egipto?",
+            "opciones": ['África', 'Asia', 'América', 'Europa'],
+            "respuesta": 1
+        },
+        {
+            "nombre": "Cuál es el estrecho que separa Europa de África?",
+            "opciones": ['Estrecho de Gibraltar', 'Estrecho de Bering', 'Estrecho de Malaca', 'Estrecho de Dardanelos'],
+            "respuesta": 1
+        },
+        {
+            "nombre": "Cuál es la capital de Canadá?",
+            "opciones": ['Toronto', 'Montreal', 'Vancouver', 'Ottawa'],
+            "respuesta": 4
+        }
     ],
     'Entretenimiento': [
         {
@@ -406,6 +637,71 @@ preguntas_cat = {
             "nombre": 'Quien protagonizo Forrest Gump',
             "opciones": ['Robert Dawney Jr.', 'Tom Hanks', 'Robert De Niro', 'Harrison Ford'],
             "respuesta": 2
+        },
+        {
+            "nombre": "En qué película interpreta Leonardo DiCaprio a un estafador en Wall Street?",
+            "opciones": ['Titanic', 'El Gran Gatsby', 'Inception', 'El Lobo de Wall Street'],
+            "respuesta": 4
+        },
+        {
+            "nombre": "Qué famosa película musical presenta la canción 'Let It Go'?",
+            "opciones": ['Cantando Bajo la Lluvia', 'La Bella y la Bestia', 'Frozen', 'Mamma Mia!'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "Qué personaje icónico es interpretado por Johnny Depp en la serie de películas de Disney?",
+            "opciones": ['Jack Sparrow', 'Indiana Jones', 'Harry Potter', 'Han Solo'],
+            "respuesta": 1
+        },
+        {
+            "nombre": "En la película 'El Señor de los Anillos', quién es el portador del Anillo Único?",
+            "opciones": ['Legolas', 'Gandalf', 'Aragorn', 'Frodo'],
+            "respuesta": 4
+        },
+        {
+            "nombre": "Cuál de los siguientes superhéroes es conocido como 'El Hombre de Acero'?",
+            "opciones": ['Batman', 'Spider-Man', 'Superman', 'Iron Man'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "Cuál es la franquicia de videojuegos de construcción y aventuras muy popular?",
+            "opciones": ['FIFA', 'Call of Duty', 'Minecraft', 'Assassin\'s Creed'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "En qué película aparece el personaje Hannibal Lecter?",
+            "opciones": ['El Silencio de los Inocentes', 'Pulp Fiction', 'El Padrino', 'Matrix'],
+            "respuesta": 1
+        },
+        {
+            "nombre": "Qué actor interpreta a Tony Stark, también conocido como Iron Man, en el Universo Cinematográfico de Marvel?",
+            "opciones": ['Chris Hemsworth', 'Mark Ruffalo', 'Chris Evans', 'Robert Downey Jr.'],
+            "respuesta": 4
+        },
+        {
+            "nombre": "Cuál es el nombre del mago principal en la serie de libros 'Harry Potter' de J.K. Rowling?",
+            "opciones": ['Albus Dumbledore', 'Severus Snape', 'Gandalf', 'Merlin'],
+            "respuesta": 1
+        },
+        {
+            "nombre": "En qué película famosa un científico excéntrico viaja en el tiempo en un DeLorean?",
+            "opciones": ['Back to the Future', 'The Terminator', 'Inception', 'Interstellar'],
+            "respuesta": 1
+        },
+        {
+            "nombre": "Qué película de Christopher Nolan presenta la frase '¿Por qué tan serio?'",
+            "opciones": ['Inception', 'Interstellar', 'The Dark Knight', 'Dunkirk'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "Qué famoso director es conocido por películas como 'Pulp Fiction' y 'Kill Bill'?",
+            "opciones": ['Steven Spielberg', 'Tim Burton', 'Quentin Tarantino', 'Christopher Nolan'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "Cuál es la saga literaria y cinematográfica que trata sobre un mundo mágico y un niño llamado Harry?",
+            "opciones": ['Crepúsculo', 'El Señor de los Anillos', 'Percy Jackson', 'Harry Potter'],
+            "respuesta": 4
         },
     ],
     'Historia': [
@@ -511,6 +807,76 @@ preguntas_cat = {
             "opciones": ['San Martín', 'Perón', 'Mitre', 'Belgrano'],
             "respuesta": 4
         },
+        {
+            "nombre": 'Quien descubrio America',
+            "opciones": ['Americano Vespuccio', 'Ezio Auditore', 'Cristobal Colon', 'Todas son correctas'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "En qué año se firmó la Declaración de Independencia de Estados Unidos?",
+            "opciones": [1776, 1789, 1800, 1812],
+            "respuesta": 1
+        },
+        {
+            "nombre": "Cuál fue la dinastía que gobernó China durante la mayor parte del período imperial?",
+            "opciones": ['Han', 'Ming', 'Qing', 'Tang'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "Cuál fue el líder militar que dirigió las fuerzas aliadas en Europa durante la Segunda Guerra Mundial?",
+            "opciones": ['Winston Churchill', 'Adolf Hitler', 'Joseph Stalin', 'Dwight D. Eisenhower'],
+            "respuesta": 4
+        },
+        {
+            "nombre": "En qué siglo tuvo lugar la Revolución Industrial?",
+            "opciones": ['XVII', 'XVIII', 'XIX', 'XX'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "En qué año se produjo la Revolución Rusa y derrocó al gobierno zarista?",
+            "opciones": [1905, 1917, 1923, 1930],
+            "respuesta": 2
+        },
+        {
+            "nombre": "Cuál fue la civilización antigua que construyó las pirámides de Giza?",
+            "opciones": ['Maya', 'Egipcia', 'Azteca', 'Inca'],
+            "respuesta": 2
+        },
+        {
+            "nombre": "Cuál fue el líder de la Revolución Cubana que derrocó a Fulgencio Batista en 1959?",
+            "opciones": ['Che Guevara', 'Fidel Castro', 'Hugo Chávez', 'Nicolás Maduro'],
+            "respuesta": 2
+        },
+        {
+            "nombre": "En qué año terminó la Segunda Guerra Mundial en Europa?",
+            "opciones": [1942, 1944, 1945, 1947],
+            "respuesta": 3
+        },
+        {
+            "nombre": "Cuál fue el período de gran renovación cultural, artística y científica que surgió en Europa durante el siglo XIV?",
+            "opciones": ['Renacimiento', 'Edad Media', 'Barroco', 'Ilustración'],
+            "respuesta": 1
+        },
+        {
+            "nombre": "En qué año tuvo lugar la Revolución Francesa?",
+            "opciones": [1789, 1804, 1830, 1848],
+            "respuesta": 1
+        },
+        {
+            "nombre": "Quién fue el líder político y militar que unificó a Alemania en el siglo XIX?",
+            "opciones": ['Napoleón Bonaparte', 'Winston Churchill', 'Benito Mussolini', 'Otto von Bismarck'],
+            "respuesta": 4
+        },
+        {
+            "nombre": "Qué imperio gobernó gran parte de Europa, Asia y África durante el siglo XIX?",
+            "opciones": ['Imperio Romano', 'Imperio Bizantino', 'Imperio Otomano', 'Imperio Mongol'],
+            "respuesta": 3
+        },
+        {
+            "nombre": "Cuál fue el evento que marcó el comienzo de la Gran Depresión en la década de 1930?",
+            "opciones": ['Crash de la Bolsa de Nueva York', 'Fin de la Segunda Guerra Mundial', 'Invasión de Pearl Harbor', 'Caída del Muro de Berlín'],
+            "respuesta": 1
+        },
     ],
     'Arte': [
         {
@@ -613,6 +979,71 @@ preguntas_cat = {
             "nombre": 'Quien pinto la ultima cena',
             "opciones": ['Leonardo Da Vinci', 'Rafael Sanzio', 'Van Gohg', 'Filippo Brunelleschi'],
             "respuesta": 1
+        },
+        {
+            "nombre": 'Quién pintó la Mona Lisa?',
+            "opciones": ['Pablo Picasso', 'Vincent van Gogh', 'Leonardo da Vinci', 'Michelangelo'],
+            "respuesta": 3
+        },
+        {
+            "nombre": 'Cuál es la famosa escultura de la Antigua Grecia que representa a un atleta luchador?',
+            "opciones": ['Venus de Milo', 'David de Miguel Ángel', 'Discóbolo de Mirón', 'El Pensador de Rodin'],
+            "respuesta": 3
+        },
+        {
+            "nombre": 'Qué artista es conocido por sus obras con motivos de los sueños y el subconsciente?',
+            "opciones": ['Salvador Dalí', 'Jackson Pollock', 'Pablo Picasso', 'Vincent van Gogh'],
+            "respuesta": 1
+        },
+        {
+            "nombre": 'En qué movimiento artístico se caracteriza por la representación de objetos de manera abstracta y fragmentada?',
+            "opciones": ['Impresionismo', 'Cubismo', 'Realismo', 'Surrealismo'],
+            "respuesta": 2
+        },
+        {
+            "nombre": 'Quién es conocido por sus pinturas de latas de sopa y retratos de celebridades pop?',
+            "opciones": ['Salvador Dalí', 'Andy Warhol', 'Pablo Picasso', 'Vincent van Gogh'],
+            "respuesta": 2
+        },
+        {
+            "nombre": 'Cuál es el autor de la famosa obra "La Noche Estrellada"?',
+            "opciones": ['Pablo Picasso', 'Vincent van Gogh', 'Leonardo da Vinci', 'Michelangelo'],
+            "respuesta": 2
+        },
+        {
+            "nombre": 'Qué artista renacentista pintó "La Última Cena"?',
+            "opciones": ['Pablo Picasso', 'Vincent van Gogh', 'Leonardo da Vinci', 'Michelangelo'],
+            "respuesta": 3
+        },
+        {
+            "nombre": 'En qué período artístico se caracteriza por la exuberancia y la ornamentación?',
+            "opciones": ['Renacimiento', 'Barroco', 'Romanticismo', 'Realismo'],
+            "respuesta": 2
+        },
+        {
+            "nombre": 'Cuál es el famoso pintor impresionista que creó obras como "Los nenúfares"?',
+            "opciones": ['Claude Monet', 'Edgar Degas', 'Pierre-Auguste Renoir', 'Édouard Manet'],
+            "respuesta": 1
+        },
+        {
+            "nombre": 'Qué artista pintó "La Persistencia de la Memoria", con relojes derretidos?',
+            "opciones": ['Salvador Dalí', 'Jackson Pollock', 'Pablo Picasso', 'Vincent van Gogh'],
+            "respuesta": 1
+        },
+        {
+            "nombre": 'Cuál de las siguientes obras no fue creada por Miguel Ángel?',
+            "opciones": ['La Creación de Adán', 'El David', 'La Última Cena', 'La Piedad'],
+            "respuesta": 3
+        },
+        {
+            "nombre": 'En qué movimiento artístico se destacó Frida Kahlo?',
+            "opciones": ['Impresionismo', 'Cubismo', 'Surrealismo', 'Expresionismo'],
+            "respuesta": 3
+        },
+        {
+            "nombre": 'Qué artista es conocido por su técnica de "pintura drip"?',
+            "opciones": ['Salvador Dalí', 'Jackson Pollock', 'Pablo Picasso', 'Vincent van Gogh'],
+            "respuesta": 2
         },
     ]
 }
