@@ -1,102 +1,103 @@
+
 preguntas_cat = {
     "Deporte": [
         {
-            "nombre": "Cuantos campeonatos ganados tiene Michael Jordan",
+            "nombre": "Cuantos campeonatos ganados tiene Michael Jordan?",
             "opciones": [4, 5, 6, 9],
             "respuesta": 3
         },
         {
-            "nombre": "En cuales equipos estuvo Lebron James",
+            "nombre": "En cuales equipos estuvo Lebron James?",
             "opciones": ["Cavaliers", "Lakers", "Miami Heat", "Todas son correctas"],
             "respuesta": 4
         },
         {
-            "nombre": "Cuantos triples metio Curry",
+            "nombre": "Cuantos triples metio Curry?",
             "opciones": [3.117, 2.143, 3.013, 3.500],
             "respuesta": 1
         },
         {
-            "nombre": "Que equipo gano la ultima NBA",
-            "opciones": [' Boston Celtics', 'Miami Heat', 'Golden State', 'Lakers'],
+            "nombre": "Que equipo gano la ultima NBA?",
+            "opciones": ['Boston Celtics', 'Miami Heat', 'Golden State', 'Lakers'],
             "respuesta": 3
         },
         {
-            "nombre": "Cual de los siguientes jugadores Agentinos estara en el salon de la fama",
-            "opciones": [' Facu Campazzo', 'Manu Ginobili', 'Luis Scola', 'Leandro Bolmmaro'],
+            "nombre": "Cual de los siguientes jugadores Agentinos estara en el salon de la fama?",
+            "opciones": ['Facu Campazzo', 'Manu Ginobili', 'Luis Scola', 'Leandro Bolmmaro'],
             "respuesta": 2
         },
         {
-            "nombre": "Cuantos Mundiales tiene Alemania",
+            "nombre": "Cuantos Mundiales tiene Alemania?",
             "opciones": [4, 5, 6, 7],
             "respuesta": 1
         },
         {
-            "nombre": "A partir de qué temporada se implantó el VAR en LaLiga",
+            "nombre": "A partir de qué temporada se implantó el VAR en LaLiga?",
             "opciones": ['2015/16', '2018/19', '2019/20', '2020/21'],
             "respuesta": 2
         },
         {
-            "nombre": "Cuantos balones de oro tiene Messi",
+            "nombre": "Cuantos balones de oro tiene Messi?",
             "opciones": [5, 6, 7, 8],
             "respuesta": 3
         },
         {
-            "nombre": "En que equipo debuto Maradona",
+            "nombre": "En que equipo debuto Maradona?",
             "opciones": ['Barcelona', 'Roma', 'Boca', 'Argentinos Juniors'],
             "respuesta": 4
         },
         {
-            "nombre": "Cuantos mundiales tiene Pele",
+            "nombre": "Cuantos mundiales tiene Pele?",
             "opciones": [1, 2, 3, 4],
             "respuesta": 3
         },
         {
-            "nombre": "Cuanto mide una cancha de voley de largo",
+            "nombre": "Cuanto mide una cancha de voley de largo?",
             "opciones": ['18m', '20m', '25m', 'Ninguna es correcta'],
             "respuesta": 1
         },
         {
-            "nombre": "Cuantas copas americas tiene Brasil",
+            "nombre": "Cuantas copas americas tiene Brasil?",
             "opciones": ['3', '4', '6', 'Ninguna es correcta'],
             "respuesta": 3
         },
         {
-            "nombre": "Quienes llegaron a la final en el mundial 2010 de futbol",
+            "nombre": "Quienes llegaron a la final en el mundial 2010 de futbol?",
             "opciones": ['España-Brasil', 'Holanda-Portugal', 'España-Holanda', 'Ninguna de las anteriores'],
             "respuesta": 3
         },
         {
-            "nombre": "Quien gano el mundial de voley en 2022",
+            "nombre": "Quien gano el mundial de voley en 2022?",
             "opciones": ['España', 'Croacia', 'Francia', 'Estado Unidos'],
             "respuesta": 3
         },
         {
-            "nombre": "Quien gano la ultima competencia de natacion en las olimpiadas",
+            "nombre": "Quien gano la ultima competencia de natacion en las olimpiadas?",
             "opciones": ['Marta Fiedina', 'Yukiko Inui', 'Zopie Andrew Spitz', 'Caeleb Dressel'],
             "respuesta": 2
         },
         {
-            "nombre": "Cuál es el tenista con más títulos de la historia",
+            "nombre": "Cuál es el tenista con más títulos de la historia?",
             "opciones": ['Rafael Nadal', 'Del Potro', 'Novak Djokovic', 'Roger Federer'],
             "respuesta": 1
         },
         {
-            "nombre": "Cuanto duro el partido de tenis mas largo de la historia",
+            "nombre": "Cuanto duro el partido de tenis mas largo de la historia?",
             "opciones": ['9:45hs', '10hs', '11:30hs', '11hs'],
             "respuesta": 4
         },
         {
-            "nombre": "Donde se creo el tenis",
+            "nombre": "Donde se creo el tenis?",
             "opciones": ['Italia', 'Estados Unidos', 'Inglaterra', 'Francia'],
             "respuesta": 4
         },
         {
-            "nombre": "Cuantos jugadores hay en un partido de futbol por equipo en cancha",
+            "nombre": "Cuantos jugadores hay en un partido de futbol por equipo en cancha?",
             "opciones": [6, 7, 9, 11],
             "respuesta": 4
         },
         {
-            "nombre": "Quién ganó 4 mundiales consecutivos en la Fórmula 1",
+            "nombre": "Quién ganó 4 mundiales consecutivos en la Fórmula 1?",
             "opciones": ['Lando Norris', 'Max Verstappen', 'Lewis Hamilton', 'Sebastian Vettel'],
             "respuesta": 4
         }
@@ -362,7 +363,7 @@ preguntas_cat = {
             "respuesta": 2
         },
         {
-            "nombre": 'Como se llama la tercera pelicula de Star Wars',
+            "nombre": 'Como se llama la tercera pelicula de Star Wars?',
             "opciones": ['La Venganza de los Sith', 'El retorno del Jedi', 'Una nueva esperanza', 'El ultimo Jedi'],
             "respuesta": 1
         },

@@ -36,6 +36,14 @@ def iniciar_juego():
 boton_iniciar = tk.Button(frame_principal, text="Iniciar juego", command=iniciar_juego, font=("Arial", 20), padx=20, pady=10, bg="pink")
 boton_iniciar.pack(pady=20)
 
+def Salir():
+    print("Saliendo del juego...")
+    ventana.destroy()
+    return exit()
+
+boton_salir = tk.Button(frame_principal, text="Salir", command=Salir, font=("Arial", 15), padx=10, pady=10, bg="red")
+boton_salir.pack(pady=10)
+
 frame_principal.update_idletasks()
 width = frame_principal.winfo_width()
 height = frame_principal.winfo_height()
@@ -55,8 +63,8 @@ if __name__ == "__main__":
     correctos = 0
     ventana.mainloop()
     modo_seleccionado = modo_var.get()
-    desicion = modo_seleccionado
-    if desicion == 'Preguntas Aleatorias':
+    
+    if modo_seleccionado == 'Preguntas Aleatorias':
         print(f"")
         print(f"")
         while correctos < 10 and incorrectos < 3:
@@ -82,7 +90,7 @@ if __name__ == "__main__":
         if correctos == 10:
             messagebox.showinfo( "Ganaste", " ¡Ganaste!       ", )
             print('Ganaste!')
-    if desicion == 'De a 2 jugadores':
+    if modo_seleccionado == 'De a 2 jugadores':
         cant_de_jugadores = 2
         rango = cant_de_jugadores + 1
         info_jugador = [{x: False for x in CATEGORIAS} for i in range(rango)]
@@ -119,6 +127,6 @@ if __name__ == "__main__":
                     print(f'Jugador {i} es el ganador')
                     break
         
-    elif desicion == '3':
+    elif modo_seleccionado == '3':
         Salir()
 
