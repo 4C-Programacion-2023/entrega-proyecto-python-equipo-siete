@@ -142,4 +142,4 @@ if __name__ == "__main__":
         eleccion_cat(correctos,incorrectos, info_jugador)
         
         
-            
+"comentario"
